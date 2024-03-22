@@ -7,6 +7,14 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    char usr;
+    scanf("%c",&usr);
 
+    if(usr=='a'||usr=='e'||usr=='i'||usr=='o'||usr=='u'){
+        printf("O");
+    }
+    else
+        printf("X");
+    
     return 0;
 }

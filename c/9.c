@@ -7,6 +7,17 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+    int usr=0;
+    while (usr<=0){
+    scanf("%d",&usr);
+    if(usr<=0)
+        printf("X\n"); 
+    else break;
+    }
+    int k=0;
+    for(int i=1;i<=usr;i++){
+        k+=i;
+    }
+    printf("%d", k);
     return 0;
 }

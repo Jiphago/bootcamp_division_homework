@@ -7,6 +7,23 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int usr;
+    int k;
+    scanf("%d",&k);
+
+    int hap=0;
+
+    usr=k;
+    while(usr==0){
+        hap+=usr;
+        usr--;
+    }
+    usr=k;
+    int gop=1;
+    for(int i=2;i<=k;i++) gop*=i;
+
+    printf("%d\n%d",k*(k+1)/2,gop);
+
 
     return 0;
 }
